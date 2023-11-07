@@ -6,13 +6,9 @@
 
 ### 1. **Node.js  /  Visual Studio Code 설치하기**
 
-[Node.js](https://nodejs.org/en)
+[Node.js](https://nodejs.org/en)  Node.js는 브라우저 밖에서도 자바스크립트를 실행할 수 있는 환경을 의미함
 
-Node.js는 브라우저 밖에서도 자바스크립트를 실행할 수 있는 환경을 의미함
-
-[VS Code](https://code.visualstudio.com/download)
-
-마이크로소프트에서 개발한 텍스트 에디터
+[VS Code](https://code.visualstudio.com/download)  마이크로소프트에서 개발한 텍스트 에디터
 
 ### 2. React 실행하기
 
