@@ -1,3 +1,68 @@
+
+# Blog 메인페이지 만들기 (with 기본문법)
+
+**src >** **App.js** 파일에 코드 작성하기 / CSS는 상단에 import되어있는 App.css 파일을 열어서 코드 작성
+
+```jsx
+function App() {
+  return (
+    <div className="App">			
+			(/* react에서는 태그에 class를 주고싶으면 **JSX문법**을 사용해야함, class X, className O */}
+      <div className="black-nav">
+        <div>개발 Blog</div>
+      </div>     
+    </div >
+  );
+}
+```
+
+## React(JSX문법 사용)의 가장 큰 장점
+
+- 리액트에서 데이터바인딩을 쉽게 할 수 있음 (Angular, Vue 도 가능)
+- 데이터바인딩 - 화면상에 보여지는 데이터(View)와 브라우저 메모리에 있는 데이터(Model)를 묶어서(Binding) 서로 간의 데이터를 동기화하는 것을 의미
+- **중괄호 { }** 를 활용하여 안에 변수명, 함수 등 다양한 것들을 넣어서 사용가능
+
+### ➢ 데이터를 넣는 방법은 2가지가 있다.
+
+1. **변수에 넣기**
+
+```jsx
+{/* 중괄호 문법을 통해 원하는 것을 뭐든지 넣을 수 있음 */}
+
+{/* 원하는 내용을 변수에 넣고, 원하는 곳으로 HTML에 꽂을 수 있음 */}
+let posts = '서울시 노원구 공릉동';
+<h4> { posts } </h4>
+
+{/* 함수도 만들어서 원하는 곳에 넣을 수 있음 */}
+function 함수(){
+     return 100
+}
+<h4> { 함수() } </h4>
+
+{/* style 적용 */}
+{/* 1. style을 직접 줄 떄는 object형식으로 중괄호안에 중괄호로 { { 코드 } } 작성해야함 */}
+<div style={ { color : 'blue', fontSize : '30px' } }>개발 Blog</div>
+
+{/* 2. 변수에 스타일을 넣고, 해당 변수명으로 적용시킬 수도 있음 */}
+let posts = { color : 'blue', fontSize : '30px' }
+<div style = { posts } >개발 Blog</div>
+
+{/* 이미지 삽입은 상단에 해당파일을 import하고 */} 
+import logo from './logo.svg';
+{/* 원하는 위치에 아래와 같이 작성 */}
+<img src = { logo } />
+```
+
+1. **state에 넣기**
+    - **useState 를 사용하는 이유 :**
+        - state 는 내용이 변경되면 HTML이 자동으로 재렌더링이 됨 (새로고침 없이 스무스하게 변경됨)
+        - 자주 바뀌는, 중요한 데이터는 변수 말고 꼭 state 로 저장해서 쓸 것
+
+
+---
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
