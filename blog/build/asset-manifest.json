@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/React/blog/static/css/main.fdc44de0.css",
-    "main.js": "/React/blog/static/js/main.5b7a37fc.js",
-    "static/js/787.774594b4.chunk.js": "/React/blog/static/js/787.774594b4.chunk.js",
-    "static/media/logo.svg": "/React/blog/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/React/blog/index.html",
-    "main.fdc44de0.css.map": "/React/blog/static/css/main.fdc44de0.css.map",
-    "main.5b7a37fc.js.map": "/React/blog/static/js/main.5b7a37fc.js.map",
-    "787.774594b4.chunk.js.map": "/React/blog/static/js/787.774594b4.chunk.js.map"
+    "main.css": "/React/blog/build/static/css/main.fdc44de0.css",
+    "main.js": "/React/blog/build/static/js/main.43785271.js",
+    "static/js/787.774594b4.chunk.js": "/React/blog/build/static/js/787.774594b4.chunk.js",
+    "static/media/logo.svg": "/React/blog/build/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/React/blog/build/index.html",
+    "main.fdc44de0.css.map": "/React/blog/build/static/css/main.fdc44de0.css.map",
+    "main.43785271.js.map": "/React/blog/build/static/js/main.43785271.js.map",
+    "787.774594b4.chunk.js.map": "/React/blog/build/static/js/787.774594b4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fdc44de0.css",
-    "static/js/main.5b7a37fc.js"
+    "static/js/main.43785271.js"
   ]
 }
